@@ -75,7 +75,7 @@
 					}
 				],
 				"url": {
-					"raw": "{{uibankApi}}/accounts?filter[where][userId]=620f1dd08932d4005f2a8875",
+					"raw": "{{uibankApi}}/accounts?filter[where][userId]={{userId}}",
 					"host": [
 						"{{uibankApi}}"
 					],
@@ -90,7 +90,7 @@
 						},
 						{
 							"key": "filter[where][userId]",
-							"value": "620f1dd08932d4005f2a8875"
+							"value": "{{userId}}"
 						}
 					]
 				}
