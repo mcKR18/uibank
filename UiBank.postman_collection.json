@@ -155,7 +155,7 @@
 						"exec": [
 							"var resp = pm.response.json\r",
 							"\r",
-							"pm.test(\"Your test name\", function () {\r",
+							"pm.test(\"My firstName name\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
 							"    pm.expect(jsonData.firstName).to.eql(\"monisha\");\r",
 							"});\r",
