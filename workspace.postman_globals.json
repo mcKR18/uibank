@@ -1,0 +1,14 @@
+{
+	"id": "217200d0-6e5f-4c12-8b6d-2d3afdd80a80",
+	"values": [
+		{
+			"key": "uibankApi",
+			"value": "https://uibank-api.azurewebsites.net/api",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2022-02-18T06:15:24.843Z",
+	"_postman_exported_using": "Postman/9.13.2"
+}
