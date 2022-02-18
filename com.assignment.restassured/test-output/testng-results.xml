@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6440" started-at="2022-02-18T17:04:43 IST" finished-at="2022-02-18T17:04:49 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6440" started-at="2022-02-18T17:04:43 IST" finished-at="2022-02-18T17:04:49 IST">
+      <class name="com.assignment.restassured.UiBank.ProfileDetails">
+        <test-method status="PASS" signature="getProfileDetails()[pri:0, instance:com.assignment.restassured.UiBank.ProfileDetails@7d70d1b1]" name="getProfileDetails" duration-ms="935" started-at="2022-02-18T17:04:48 IST" depends-on-methods="com.assignment.restassured.UiBank.LoginUiBank.login" finished-at="2022-02-18T17:04:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProfileDetails -->
+      </class> <!-- com.assignment.restassured.UiBank.ProfileDetails -->
+      <class name="com.assignment.restassured.UiBank.CreateAccountSavings">
+        <test-method status="PASS" signature="createAccount()[pri:0, instance:com.assignment.restassured.UiBank.CreateAccountSavings@7a765367]" name="createAccount" duration-ms="919" started-at="2022-02-18T17:04:47 IST" depends-on-methods="com.assignment.restassured.UiBank.LoginUiBank.login" finished-at="2022-02-18T17:04:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+      </class> <!-- com.assignment.restassured.UiBank.CreateAccountSavings -->
+      <class name="com.assignment.restassured.UiBank.AccountDetails">
+        <test-method status="PASS" signature="accounts()[pri:0, instance:com.assignment.restassured.UiBank.AccountDetails@2a742aa2]" name="accounts" duration-ms="968" started-at="2022-02-18T17:04:49 IST" depends-on-methods="com.assignment.restassured.UiBank.LoginUiBank.login" finished-at="2022-02-18T17:04:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accounts -->
+      </class> <!-- com.assignment.restassured.UiBank.AccountDetails -->
+      <class name="com.assignment.restassured.UiBank.LoginUiBank">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.assignment.restassured.UiBank.LoginUiBank@3cb1ffe6]" name="login" duration-ms="3550" started-at="2022-02-18T17:04:43 IST" finished-at="2022-02-18T17:04:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.assignment.restassured.UiBank.LoginUiBank -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
